@@ -1,1 +1,10 @@
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/number1deepwokenfan/HUB/main/Library"))()
+
+local main = library:Load{
+    Name = "MentisWave",
+    SizeX = 600,
+    SizeY = 650,
+    Theme = "Midnight",
+    Extension = "json", -- config file extension
+    Folder = "MentisWave Config" -- config folder name
+}
